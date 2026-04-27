@@ -9,6 +9,7 @@ on:
     paths:
       - "django-geoaddress/**"
       - ".github/workflows/ci.yml"
+  workflow_dispatch:
 
 jobs:
   test-django-geoaddress:
