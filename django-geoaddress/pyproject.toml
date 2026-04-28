@@ -60,3 +60,9 @@ django_geoaddress = ["templates/**/*", "static/**/*", "locale/**/*"]
 
 [tool.django-stubs]
 django_settings_module = "tests.settings"
+
+[project.optional-dependencies]
+test = [
+  "djangorestframework",
+  "python-dotenv",
+]
