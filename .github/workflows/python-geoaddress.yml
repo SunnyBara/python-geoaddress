@@ -5,11 +5,11 @@ on:
     branches: ["main"]
     paths:
       - "python-geoaddress/**"
-      - ".github/workflows/ci.yml"
+      - ".github/workflows/python-geoaddress.yml"
   pull_request:
     paths:
       - "python-geoaddress/**"
-      - ".github/workflows/ci.yml"
+      - ".github/workflows/python-geoaddress.yml"
   workflow_dispatch:
 
 jobs:
