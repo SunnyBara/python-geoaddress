@@ -46,11 +46,8 @@ jobs:
           python -m pip install -e ../python-geoaddress
           python -m pip install -e ".[test]"
 
-      - name: Django system check
-        run: python manage.py check
-
-      - name: Run Django tests
-        run: python manage.py test
+      - name: Run tests
+        run: python -m pytest
 
       - name: Build package
         run: python -m build
