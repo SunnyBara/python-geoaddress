@@ -52,3 +52,8 @@ Homepage = "https://github.com/octolo/python-geoaddress"
 Repository = "https://github.com/octolo/python-geoaddress"
 Documentation = "https://github.com/octolo/python-geoaddress/tree/main/python-geoaddress#readme"
 Issues = "https://github.com/octolo/python-geoaddress/issues"
+
+test = [
+  "pytest>=8",
+  "python-dotenv",
+]
