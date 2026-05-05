@@ -38,7 +38,7 @@ classifiers = [
 ]
 dependencies = [
   "clicommands>=0.1.0",
-  "providerkit>=0.1.0",
+  "providerkit>=1.1.1",
 ]
 
 [tool.setuptools]
@@ -52,3 +52,9 @@ Homepage = "https://github.com/octolo/python-geoaddress"
 Repository = "https://github.com/octolo/python-geoaddress"
 Documentation = "https://github.com/octolo/python-geoaddress/tree/main/python-geoaddress#readme"
 Issues = "https://github.com/octolo/python-geoaddress/issues"
+
+[project.optional-dependencies]
+test = [
+  "pytest>=8",
+  "python-dotenv",
+]
