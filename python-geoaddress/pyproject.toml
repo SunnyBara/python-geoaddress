@@ -9,7 +9,7 @@ description = "Python library for address geocoding and reverse geocoding. Provi
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-license-files = ["../LICENSE"]
+license-files = ["LICENSE"]
 authors = [
   {name = "Octolo", email = "dev@octolo.tech"}
 ]
